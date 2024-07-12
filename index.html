@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martz Studio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo_solo.png">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Martz Studio</h1>
+            <img src="img/martz_studio_logo.png" alt="Logo de empresa">
+        </header>
+        <main>
+            <div class="b1"
+                onclick="redireccionar('https://drive.google.com/drive/folders/1MUInNn3zs1oWjxWjg8TFTA3BLmqqm92J?usp=drive_link')">
+                <p>Modelado 3D</p>
+                <img src="img/model.png" alt="Imagen de modelo 3D">
+            </div>
+            <div class="b2" onclick="pronto()">
+                <p>Impresión 3D</p>
+                <img src="img/print.png" alt="Impresora 3D">
+            </div>
+            <div class="b1"
+                onclick="redireccionar('https://drive.google.com/drive/folders/1OAjOdFKXfI_zJKpNvV9DmXQl08HtWXKw?usp=drive_link')">
+                <p>Ilustración</p>
+                <img src="img/illus.png" alt="Ilustracion">
+            </div>
+            <div class="b2" onclick="redireccionarLocal('htmls/diseno-web.html')">
+                <p>Diseño y Web</p>
+                <img src="img/web.png" alt="Icono de diseño Web">
+            </div>
+        </main>
+        <footer>
+            ©Martz Studio 2024
+        </footer>
+    </div>
+    <script src="js/fx.js"></script>
+</body>
+
+</html>

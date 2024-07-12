@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conan El Bárbaro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/header/favicon.png">
+</head>
+<body>
+    <header>
+        <img src="img/header/conan-logo.png" alt="Logo de Conan" id="home">
+        <h1>Conan - El Bárbaro</h1>
+    </header>
+    <nav>
+        <a href="index.html">Introducción</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="mundo.html">La Era Hiboria</a>
+        <a href="relatos.html" class="actual">Relatos y Comics</a>
+        <a href="adaptaciones.html">Adaptaciones</a>
+        <a href="mas-obras.html">Más obras de Howard</a>
+    </nav>
+
+    <aside id="top">
+        <a href="#home">Al inicio</a>
+    </aside>
+
+    <div class="spotify">
+        <input type="checkbox" name="reproductor" id="reproductor" value="reproductor">
+        <label for="reproductor" class="activada"></label>
+        <div class="music">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/31qFpYtt7gitkgepQxbUmU?utm_source=generator&theme=0"
+                width="100%" height="152" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <script>
+            let mybutton = document.getElementById ("top");
+    
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+            mybutton.style.display = "block";
+          } else {
+           mybutton.style.display = "none";
+          }
+        }
+    </script>
+
+<main>
+    <section class="section">
+        <h2>Relatos y Comics</h2>
+        <div class="pSection">
+            <p>Conan es el héroe <em>pulp</em> por excelencia. A lo largo de los años, los cuentos originales de <span lang="en">Howard</span> han inspirado más de mil cómics, cien novelas, tres largometrajes, dos series de televisión, múltiples videojuegos y una amplia gama de coleccionables, juguetes y más, en todo el mundo.</p>
+        </div>
+        
+        <div class="howard">
+            <h3>Robert E. Howard</h3>
+            <img src="img/relatos_comics/robert_e_howard.jpg" alt="Retrato de Robert E. Howard">
+            <p><strong lang="en">Robert Ervin Howard</strong> (22 de enero de 1906 - 11 de junio de 1936) fue un escritor estadounidense de aventuras históricas y fantásticas, publicadas principalmente en la revista <span lang="en">Weird Tales</span> en los años 1930.</p>
+            
+            <p>Hijo único, fue muy apegado a su madre, quien fue una influencia clave en su vida. Residiendo en <span lang="en">Cross Plains</span>, <span lang="en">Texas</span>, <span lang="en">Howard</span> se aficionó desde muy niño a las novelas de aventuras, a la historia y a la mitología. También los cuentos sureños que le contaron sus parientes ayudaron a moldear su propio universo literario. Además de prosa, también escribió textos poéticos.</p>
+
+            <p>En su período de esplendor como autor mantuvo correspondencia con <strong lang="en">H. P. Lovecraft</strong> y <strong lang="en">Clark Ashton Smith</strong>.</p>
+
+            <p>Depresivo y devoto de su madre, cuando ésta cayó en coma a causa de la tuberculosis, Robert decidió suicidarse de un disparo en la cabeza el 11 de junio de 1936. Tenía solamente 30 años de edad.</p>
+
+            <p>Se le considera el padre del subgénero fantástico de <strong>Espada y Brujería</strong> gracias a la creación de personajes como <strong>Kull De Atlantis</strong>, creado en el año 1929, y <strong>Conan</strong>, el guerrero cimmerio.</p>
+        </div>
+
+        <div class="pSection">
+            <h4>Relatos de Conan</h4>
+
+            <p>Relatos de Conan publicados por <span lang="en">Howard</span> en vida:</p>
+            <ol>
+                <li><a href="https://es.wikipedia.org/wiki/El_f%C3%A9nix_en_la_espada" target="_blank">El Fénix en la Espada</a> (<span lang="en">The Phoenix on the Sword</span>, 1932)</li>
+                <li><a href="https://es.wikipedia.org/wiki/La_ciudadela_escarlata" target="_blank">La Ciudadela Escarlata</a> (<span lang="en">The Scarlet Citadel</span>, 1933)</li>
+                <li><a href="https://es.wikipedia.org/wiki/La_Torre_del_Elefante" target="_blank">La Torre del Elefante</a> (<span lang="en">The Tower of the Elephant</span>, 1933)</li>
+                <li><a href="https://es.wikipedia.org/wiki/El_coloso_negro" target="_blank">El Coloso Negro</a> (<span lang="en">Black Colossus</span>, 1933)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Xuthal_del_crep%C3%BAsculo" target="_blank">Xuthal del Crepúsculo</a> (<span lang="en">Xuthal of the Dusk</span>, publicado en 1933 como <span lang="en">The Slithering Shadow</span>)</li>
+                <li><a href="https://es.wikipedia.org/wiki/El_estanque_del_negro" target="_blank">El Estanque del Negro</a> (<span lang="en">The Pool of the Black One</span>, 1933)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Villanos_en_la_casa" target="_blank">Villanos en la Casa</a> (<span lang="en">Rogues in the House</span>, 1934)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Sombras_de_hierro_a_la_luz_de_la_luna" target="_blank">Sombras de Hierro a la Luz de la Luna</a> (<span lang="en">Iron Shadows in the Moon</span> publicado en 1934 como <span lang="en">Shadows in the Moonlight</span>)</li>
+                <li><a href="https://es.wikipedia.org/wiki/La_reina_de_la_Costa_Negra" target="_blank">La Reina de la Costa Negra</a> (<span lang="en">Queen of the Black Coast</span>, 1934)</li>
+                <li><a href="https://es.wikipedia.org/wiki/El_diablo_de_hierro" target="_blank">El Diablo de Hierro</a> (<span lang="en">The Devil in Iron</span>, 1934)</li>
+                <li><a href="https://es.wikipedia.org/wiki/El_pueblo_del_C%C3%ADrculo_Negro" target="_blank">El Pueblo del Círculo Negro</a> (<span lang="en">The People of the Black Circle</span>, 1934)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Nacer%C3%A1_una_bruja" target="_blank">Nacerá una Bruja</a> (<span lang="en">A Witch Shall Be Born</span>, 1934)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Los_sirvientes_de_Bit-Yakin" target="_blank">Los Sirvientes de Bit-Yakin</a> (<span lang="en">The Servants of Bit-Yakin</span>, publicado en 1935 como <span lang="en">Jewels of Gwahlur</span>)</li>
+                <li><a href="https://es.wikipedia.org/wiki/M%C3%A1s_all%C3%A1_del_r%C3%ADo_Negro" target="_blank">Más allá del Río Negro</a> (<span lang="en">Beyond the Black River</span>, 1935)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Los_antrop%C3%B3fagos_de_Zamboula" target="_blank">Los Antropófagos de Zamboula</a> (<span lang="en">The Man-Eaters of Zamboula</span>, publicado en 1935 como <span lang="en">Shadows in Zamboula</span>)</li>
+            </ol>
+            
+            <p><span lang="en">Howard</span> también escribió una novela sobre Conan en mayo de 1934, se tituló <a href="https://es.wikipedia.org/wiki/La_hora_del_drag%C3%B3n" target="_blank">La Hora del Dragón</a> (<span lang="en">The Hour of the Dragon</span>). Fue publicada entre diciembre de 1935 y abril de 1936.</p>
+
+            <p>Relatos de Conan publicados póstumamente:</p>
+
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Clavos_rojos" target="_blank">Clavos Rojos</a> (<span lang="en">Red Nails</span>, 1936)</li>
+                <li><a href="https://es.wikipedia.org/wiki/El_negro_desconocido" target="_blank">El Negro Desconocido</a> (<span lang="en">The Black Stranger</span>, 1953)</li>
+                <li><a href="https://es.wikipedia.org/wiki/El_valle_de_las_mujeres_perdidas" target="_blank">El Valle de las Mujeres Perdidas</a> (<span lang="en">The Vale of Lost Women</span>, 1967)</li>
+                <li><a href="https://es.wikipedia.org/wiki/El_dios_del_cuenco" target="_blank">El Dios del Cuenco</a> (<span lang="en">The God in the Bowl</span>, 1975)</li>
+                <li><a href="https://es.wikipedia.org/wiki/La_hija_del_gigante_helado" target="_blank">La Hija del Gigante Helado</a> (<span lang="en">The Frost-Giant's Daughter</span>, publicado en 1976)</li>
+            </ul>
+            
+            
+            <p>Relatos inacabados antes de la muerte de <span lang="en">Howard</span>:</p>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Los_tambores_de_Tombalku" target="_blank">Los Tambores de Tombalku</a> (<span lang="en">Drums of Tombalku</span>, fragmento)</li>
+                <li><a href="https://es.wikipedia.org/wiki/La_sala_de_los_muertos" target="_blank">La Sala de los Muertos</a> (<span lang="en">The Hall of the Dead</span>, solo sinopsis)</li>
+                <li><a href="https://es.wikipedia.org/wiki/La_mano_de_Nergal" target="_blank">La Mano de Nergal</a> (<span lang="en">The Hand of Nergal</span>, fragmento)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Lobos_de_allende_la_frontera" target="_blank">Lobos de Allende la Frontera</a> (<span lang="en">Wolves Beyond the Border</span>, fragmento)</li>
+                <li><a href="https://es.wikipedia.org/wiki/Un_hocico_en_la_oscuridad" target="_blank">Un Hocico en la Oscuridad</a> (<span lang="en">The Snout in the Dark</span>, fragmento)</li>
+            </ul>
+        </div>
+            
+        <div class="pSection">
+            <h3>Comics</h3>
+            
+            <div class="divMedia">
+                <h4>Marvel Comics - Primera Etapa</h4>
+                <img src="img/relatos_comics/marvel1.jpg" alt="Tapas de Conan en su primer etapa de Marvel Comics">
+                <p>Lo primero que hay que hacer es diferenciar entre el Conan clásico publicado por <strong lang="en">Marvel</strong> y el Conan moderno (etapa <span lang="en">Dark Horse</span>). El primero se publicó a lo largo de diferentes colecciones entre 1970 y 1996.</p>
+        
+                <p>Dentro de la etapa <span lang="en">Marvel</span> encontramos tres grandes series: "Conan el bárbaro" (275 números), "La Espada Salvaje de Conan" (235 números) y "Conan Rey" (55 números).</p>
+            </div>
+                
+            <div class="divMedia">
+                <h4>Dark Horse Comics</h4>
+                <img src="img/relatos_comics/darkhorse.jpg" alt="Tapas de Conan en Dark Horse Comics">
+                <p><strong lang="en">Dark Horse</strong>, se hizo con los derechos del bárbaro a comienzos del siglo XXI, empezando a publicar nuevas historias desde el 2003. Sus series fueron:</p>
+
+                <ul>
+                    <li>Conan la Leyenda: En sus páginas encontramos los 50 números de la serie "Conan", 24 de "Conan the Cimmerian" y los 12 de "Conan Road of Kings". Estas series destacaron sobre todo por adaptar las historias clásicas del cimmerio.</li>
+
+                    <li>Conan el Bárbaro: una vez concluidas las series anteriores, se encargó al guionista Brian Wood volver a contar la etapa de Conan y Bêlit.</li>
+
+                    <li>Conan el Vengador: tras concluir la serie "Conan the Barbarian" de Dark Horse, comenzó esta nueva serie en 2014.</li>
+
+                    <li>Conan Rey: sin lugar a dudas, esta es la joya de la corona del Conan de <span lang="en">Dark Horse</span>. Bajo este título, el guionista Timothy Truman y el dibujante Tomás Giorello adaptan tres grandes obras del cimmerio en su etapa de rey.</li>
+                </ul>
+            </div>
+
+            <div class="divMedia">
+                <h4>Marvel Comics - Segunda Etapa</h4>
+                <img src="img/relatos_comics/marvel2.jpg" alt="Tapas de Conan en su primer etapa de Marvel Comics">
+                <p>En su retorno a esta editorial, <span lang="en">Marvel Comics</span> se volcó en ofrecer a sus lectores diferentes productos, entre los que hubo dos series regulares que acabaron antes de lo previsto y algunas series limitadas. Lo cierto, viéndolo en retrospectiva, es que, con la salvedad de algunos números, la calidad narrativa de esos cómics dejaba bastante que desear, y su éxito se debió más a la enorme popularidad del personaje que a la calidad de los nuevos trabajos.</p>
+
+                <p>En cualquier caso, lo más notable que ha hecho <span lang="en">Marvel Comics</span> durante esta etapa, no han sido los títulos nuevos, sino recopilar los cómics clásicos de Conan el bárbaro.</p>
+            </div>
+
+            <div class="divMedia">
+                <h4>Titan Comics - Etapa Actual</h4>
+                <img src="img/relatos_comics/titan.jpg" alt="Tapas de Conan en Titan Comics">
+                <p><strong>Titan Comics</strong> es la editorial que ha conseguido llevarse los derechos de Conan el bárbaro actualmente. Como punto de partida, Titan Comics retomó las reediciones que comenzó Marvel Comics en su Segunda Etapa.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="borderFooter"></div>
+<footer>
+    <img src="img/footer/martin.jpg" alt="Foto de autor">
+    <div class="footer">
+        <p>Nombre y apellido: <span>Martin Goldaracena Fros</span></p>
+        <p>Edad: <span>35 años</span></p>
+        <p>Correo: <span>martin.goldaracena@davinci.edu.ar</span></p>
+        <p>Redes: <a href="https://www.behance.net/martingoldara" target="_blank">Behance</a></p>
+    </div>
+
+    <div>
+        <p><span>Links utilizados:</span></p>
+        <ul>
+            <li><a href="https://www.lacasadeel.net/2022/12/origen-de-conan.html" target="_blank">El origen de Conan: Robert E. Howard, creador de mitos</a></li>
+            <li><a href="http://elcubildelciclope.blogspot.com/2011/11/conan-de-robert-howard.html" target="_blank">El Cubil del Cíclope.: Conan de Robert Howard</a></li>
+            <li><a href="https://conan.fandom.com/wiki/Conan" target="_blank">Conan Wiki | Fandom</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Conan_el_B%C3%A1rbaro" target="_blank">Conan el Bárbaro | Wikipedia</a></li>
+            <li><a href="https://www.alohacriticon.com/literatura/escritores/robert-e-howard/" target="_blank">Robert E. Howard: biografía y obra</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Kull_de_Atlantis" target="_blank">Kull de Atlantis | Wikipedia</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Red_Sonja" target="_blank">Red Sonja | Wikipedia</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

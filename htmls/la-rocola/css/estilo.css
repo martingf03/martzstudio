@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #220F45;
+    color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: whitesmoke;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/rocola.jpg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+header > p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+    background-color: #220f459d;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+button {
+    background-color: #70e2b2;
+    background-image: linear-gradient(180deg, rgba(112,226,178,1) 20%, rgba(95,179,222,1) 100%);
+    color: #41198b;
+    padding: 0.7rem 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    transition: background-image 2s ease-in-out, transform 1s;
+}
+
+button:hover {
+    background-color: #8ee7c2;
+    background-image: linear-gradient(180deg, rgb(138, 240, 197) 20%, rgb(123, 199, 236) 100%);
+    color: #5e29c0;
+    transform:scale(105%) ;
+}
+
+button:active {
+    background-color: #55b88f;
+    background-image: linear-gradient(180deg, rgb(70, 172, 129) 20%, rgb(54, 122, 156) 100%);
+    color: whitesmoke;
+}
+
+.boton-codigo {
+    background-color: rgba(199,112,225,1); 
+    background-image: linear-gradient(180deg, rgba(199,112,225,1) 0%, rgba(137,112,226,1) 100%);
+    color: whitesmoke;
+}
+
+.boton-codigo:hover {
+    background-color: rgb(216, 139, 240);
+    background-image: linear-gradient(180deg, rgb(221, 149, 243) 0%, rgb(161, 140, 240) 100%);
+    color: whitesmoke;
+}
+
+.boton-codigo:active {
+    background-color: rgb(174, 88, 201); 
+    background-image: linear-gradient(180deg, rgb(168, 83, 194) 0%, rgb(103, 79, 187) 100%);
+    color: whitesmoke;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+main > img {
+    width: 50%;
+    display: block;
+    padding: 2rem;
+}
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    display: none;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    text-decoration: underline;
+    border-top: 2px solid #70e2b2;
+    padding-top: 2rem;
+}
+
+#info {
+    padding: 1rem;
+}
+
+#info > p {
+    margin: 0.5rem 0;
+}
+
+#info > ul {
+    padding: 0.5rem 1.5rem;
+}
+
+#info > ul > li{
+    padding: 0.3rem 0;
+}
+
+.info-web p {
+    padding: 0.5rem 0;
+    color:#70e2b2;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.ultimo-p {
+    padding-bottom: 2rem;
+}
+
+.rojo {
+    color: red;
+}
+
+footer {
+    border-top: 3px solid #70e2b2;
+    width: 100%;
+}
+
+footer > ul {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 750px) {    
+    footer > ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

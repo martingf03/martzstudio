@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <title>La Rocola</title>
+
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <script src="js/clases-metodos.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>La Rocola</h1>
+        <p>Accedé a discos en La Rocola</p>
+    </header>
+    <nav>
+        <button onclick="cargar();">Cargar nuevo disco</button>
+        <button onclick="mostrar();">Mostrar discos</button>
+        <button onclick="consultar()" class="boton-codigo">Buscar disco por código</button>
+    </nav>
+    <main>
+        <h2>Mis discos</h2>
+        <img src="img/musica.png" alt="Música">
+        <div id="info"></div>
+    </main>
+
+    <footer>
+        <ul>
+            <li>Martín Goldaracena Fros</li>
+            <li>
+                <a href="mailto:martin.goldaracena@davinci.edu.ar" target="_blank">martin.goldaracena@davinci.edu.ar</a>
+            </li>
+            <li>Programación 1</li>
+        </ul>
+    </footer>
+
+    <script src="js/parcial.js"></script>
+</body>
+
+</html>

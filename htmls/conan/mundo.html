@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conan El Bárbaro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/header/favicon.png">
+</head>
+<body>
+    <header>
+        <img src="img/header/conan-logo.png" alt="Logo de Conan" id="home">
+        <h1>Conan - El Bárbaro</h1>
+    </header>
+    <nav>
+        <a href="index.html">Introducción</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="mundo.html" class="actual">La Era Hiboria</a>
+        <a href="relatos.html">Relatos y Comics</a>
+        <a href="adaptaciones.html">Adaptaciones</a>
+        <a href="mas-obras.html">Más obras de Howard</a>
+    </nav>
+
+    <aside id="top">
+        <a href="#home">Al inicio</a>
+    </aside>
+
+    <div class="spotify">
+        <input type="checkbox" name="reproductor" id="reproductor" value="reproductor">
+        <label for="reproductor" class="activada"></label>
+        <div class="music">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/31qFpYtt7gitkgepQxbUmU?utm_source=generator&theme=0"
+                width="100%" height="152" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <script>
+            let mybutton = document.getElementById("top");
+    
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+            mybutton.style.display = "block";
+          } else {
+           mybutton.style.display = "none";
+          }
+        }
+    </script>
+
+<main>
+    <section class="section">
+        <h2>La Era Hiboria – El mundo de Conan</h2>
+        <div class="pSection">
+            <img src="img/mundo/mapa_mundo.jpg" alt="Mapa de la Era Hibroria">
+        </div>
+        <div class="mundo-quote">
+            <blockquote>Sabed, oh príncipe, que entre los años en que los océanos se bebieron la Atlántida y sus relucientes ciudades, y los años del surgimiento de los Hijos de Aryas, hubo una Edad no soñada, en la que reinos brillantes se extendían por el mundo como mantos azules bajo las estrellas: Nemedia, Ophir, Brythunia, Hyperborea, Zamora con sus mujeres de pelo oscuro y sus torres de misterio embrujadas por las arañas, Zingara con su caballería, Koth que limitaba con las tierras de pastoreo de Shem, Estigia con sus tumbas vigiladas por las sombras, Hyrkania, cuyos jinetes llevaban acero y seda y oro. Pero el reino más orgulloso del mundo era Aquilonia, que reinaba en el soñado oeste. Hasta allí llegó Conan, el cimmerio, de pelo negro, ojos hoscos, espada en mano, ladrón, segador, asesino, con gigantescas melancolías y gigantescas alegrías, para hollar los tronos enjoyados de la Tierra bajo sus pies de sandalia.</blockquote>
+        
+            <p><strong lang="en">Robert E. Howard</strong> - “El Fénix en la Espada”.</p>
+        </div>
+        
+        <div class="pSection">
+            <p><span lang="en">R. E. Howard</span>, no sólo redactó el ensayo <a href="https://es.wikipedia.org/wiki/Era_Hiboria" target="_blank">La Edad Hiboria</a> sino que dibujó mapas relativamente precisos del continente durante esta Era, basándose en las zonas geográficas que más tarde, según el curso histórico ficticio de una serie de cataclismos, iban a convertirse en el así llamado «Viejo Mundo», es decir, nuestro Mundo Antiguo.  Al continente lo llamó <strong lang="en">Thuria</strong>, aunque también se lo conoce como <strong>Hiboria</strong> por la Edad en la que transcurre.</p>
+        </div>
+        
+        <div class="pSection">
+            <h3>El Noroeste</h3>
+            <img src="img/mundo/noroeste.jpg" alt="Mapa del Noroeste">
+            <p>En el extremo noroeste se encuentra <strong lang="en">Nordheim</strong>, una región formada por dos reinos, <strong lang="en">Vanaheim</strong> y <strong>Asgard</strong>. Justo al sur de <span lang="en">Nordheim</span> se encuentra Cimmeria, tierra natal de Conan, y al este de Asgard el reino de <strong>Hiperbórea</strong> (reino lejanamente emparentado con los reinos hiborios y a veces considerado como el primero de ellos). Al Suroeste de <span lang="en">Vanaheim</span>, bordeando la costa, se encuentran las <strong>Tierras Pictas</strong> (también llamadas en ocasiones «Yermos Pictos»).</p>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Vanaheim" target="_blank">Vanaheim</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Asgard" target="_blank">Asgard</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Hiperb%C3%B3rea" target="_blank">Hiperbórea</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Pictos_(Era_Hiboria)" target="_blank">Tierras Pictas</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Cimmeria" target="_blank">Cimmeria</a></li>
+            </ul>
+        </div>
+
+        <div class="pSection">
+            <h3>Reinos Hiborios</h3>
+            <img src="img/mundo/reinos_hiborios.jpg" alt="Mapa de los Reinos Hiborios">
+            <p><strong>Los Reinos Hiborios</strong> son una colección de reinos, naciones y ciudades-estado que conforman una parte significativa del escenario en las historias de Conan el Bárbaro. Estos reinos comparten características culturales y geográficas similares y están ubicados en el centro del mapa. Ellos son:</p>
+
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Aquilonia_(Era_Hiboria)" target="_blank">Aquilonia</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Nemedia" target="_blank">Nemedia</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Brithunia" target="_blank">Brithunia</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Z%C3%ADngara" target="_blank">Zíngara</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Argos" target="_blank">Argos</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Ofir" target="_blank">Ofir</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Corinthia" target="_blank">Corinthia</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Zamora_(Era_Hiboria)" target="_blank">Zamora</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Koth" target="_blank">Koth</a></li>
+            </ul>
+        </div>
+            
+        <div class="pSection">
+            <h3>Shem y Estigia</h3>
+            <img src="img/mundo/shem-estigia.jpg" alt="Mapa de Shem y Estigia">
+            <p><strong lang="en">Shem</strong> y <strong>Estigia</strong> no son reinos hiborios propiamente dichos sino territorios intermedios situados entre los reinos hiborios del norte de <span lang="en">Thuria</span> y los reinos negros del suroeste del continente. Ambos países están separados por un largo río que fluye de este a oeste, el Styx, que toma su nombre de la mitología griega, pero que se inspira en el Nilo.</p>
+                
+            <p><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Shem" target="_blank">Shem</a> es un territorio habitado por tribus nómadas, correspondientes a los antiguos hebreos y a otros pueblos del antiguo Oriente Medio.</p>
+            
+            <p><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Estigia" target="_blank">Estigia</a>, a su vez, se inspira claramente en el Antiguo Egipto.</p>
+        </div>
+        
+        <div class="pSection">
+            <h3 class="zonas">Reinos Negros</h3>
+            <img src="img/mundo/reinos_negros.jpg" alt="Mapa de los Reinos Negros">
+            <p><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Reinos_negros" target="_blank">Los Reinos Negros</a> son la designación genérica de las tierras habitadas por poblaciones de raza negra y se corresponden con lo que sería África. El más grande de todos es <strong>Zembabwei</strong> (cuyo nombre evoca a Zimbabue), no obstante hubo otros de importancia considerable.</p>
+        </div>
+
+        <div class="pSection">
+            <h3 class="zonas">El Oriente</h3>
+            <img src="img/mundo/oriente.jpg" alt="Mapa del Oriente">
+            <p>Los <strong>Reinos del Oriente</strong> suelen hacer referencia a una región vasta y exótica ubicada al este de los Reinos Hiborios y que se encuentra en el otro extremo del continente thurio. Estos reinos orientales, aunque no se describen en detalle en las historias originales de Conan, a menudo se asocian con un ambiente exótico, misterioso y lejano. Algunos de ellos son:</p>
+
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Vendhya" target="_blank">Vendhya</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Turan" target="_blank">Turan</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Hirkania" target="_blank">Hirkania</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Anexo:Lugares_ficticios_de_Robert_E._Howard#Khitai" target="_blank">Khitai</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<div class="borderFooter"></div>
+<footer>
+    <img src="img/footer/martin.jpg" alt="Foto de autor">
+    <div class="footer">
+        <p>Nombre y apellido: <span>Martin Goldaracena Fros</span></p>
+        <p>Edad: <span>35 años</span></p>
+        <p>Correo: <span>martin.goldaracena@davinci.edu.ar</span></p>
+        <p>Redes: <a href="https://www.behance.net/martingoldara" target="_blank">Behance</a></p>
+    </div>
+
+    <div>
+        <p><span>Links utilizados:</span></p>
+        <ul>
+            <li><a href="https://www.lacasadeel.net/2022/12/origen-de-conan.html" target="_blank">El origen de Conan: Robert E. Howard, creador de mitos</a></li>
+            <li><a href="http://elcubildelciclope.blogspot.com/2011/11/conan-de-robert-howard.html" target="_blank">El Cubil del Cíclope.: Conan de Robert Howard</a></li>
+            <li><a href="https://conan.fandom.com/wiki/Conan" target="_blank">Conan Wiki | Fandom</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Conan_el_B%C3%A1rbaro" target="_blank">Conan el Bárbaro | Wikipedia</a></li>
+            <li><a href="https://www.alohacriticon.com/literatura/escritores/robert-e-howard/" target="_blank">Robert E. Howard: biografía y obra</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Kull_de_Atlantis" target="_blank">Kull de Atlantis | Wikipedia</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Red_Sonja" target="_blank">Red Sonja | Wikipedia</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martz Studio - Diseño y Web</title>
+    <link rel="stylesheet" href="../htmls/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../img/logo_solo.png">
+    <script src="../js/fx.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Martz Studio</h1>
+            <img src="../img/martz_studio_logo.png" alt="Logo de empresa" onclick="redireccionarLocal(`../index.html`)">
+        </header>
+        <main>
+            <section class="b1" onclick="redireccionar(`conan/index.html`)">
+                <p>Conan</p>
+                <img src="../img/conan_web.jpg" alt="Web de Conan">
+            </section>
+            <section class="b2" onclick="redireccionar(`vesperia/index.html`)">
+                <p>Tales of Vesperia</p>
+                <img src="../img/vesperia_web.jpg" alt="Web de Tales of Vesperia">
+            </section>
+            <section class="b3" onclick="redireccionar(`la-rocola/index.html`)">
+                <p>La Rocola</p>
+                <img src="../img/rocola.png" alt="Web de La Rocola">
+            </section>
+            <section class="b4" onclick="redireccionar(`https://drive.google.com/drive/folders/18bokMTqqpdBmUawwmyPoWdydHZHD4ofS?usp=drive_link`)">
+                <p>Otros diseños</p>
+                <img src="../img/disenos.jpg" alt="Impresora 3D">
+            </section>
+            <aside id="top" onclick="redireccionarLocal(`../index.html`)">
+                <img src="../img/home.svg" alt="Flecha arriba">
+            </aside>
+        </main>
+        <footer>
+            ©Martz Studio 2024
+        </footer>
+    </div>
+</body>
+
+</html>

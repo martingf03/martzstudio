@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conan El Bárbaro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/header/favicon.png">
+</head>
+
+<body>
+    <header>
+        <img src="img/header/conan-logo.png" alt="Logo de Conan" id="home">
+        <h1>Conan - El Bárbaro</h1>
+    </header>
+    <nav>
+        <a href="index.html" class="actual">Introducción</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="mundo.html">La Era Hiboria</a>
+        <a href="relatos.html">Relatos y Comics</a>
+        <a href="adaptaciones.html">Adaptaciones</a>
+        <a href="mas-obras.html">Más obras de Howard</a>
+    </nav>
+
+    <aside id="top">
+        <a href="#home">Al inicio</a>
+    </aside>
+
+    <div class="spotify">
+        <input type="checkbox" name="reproductor" id="reproductor" value="reproductor">
+        <label for="reproductor" class="activada"></label>
+        <div class="music">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/album/31qFpYtt7gitkgepQxbUmU?utm_source=generator&theme=0"
+                width="100%" height="152" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <script>
+        let mybutton = document.getElementById("top");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
+
+    <main>
+        <section class="section">
+            <h2>Introducción</h2>
+            <div class="pSection">
+                <img src="img/intro.jpg" alt="Conan luchando contra un hechicero">
+            </div>
+            <div class="pSection">
+                <p><strong>Conan el Bárbaro</strong> es un personaje creado en 1932 por el escritor <strong
+                        lang="en">Robert E. Howard</strong> para una serie de relatos destinados a la revista de relatos
+                    <em>pulp</em> <strong lang="en">Weird Tales</strong>. Conan es un personaje arquetípico, el más
+                    famoso representante en su género, el así llamado <strong>espada y brujería</strong>, y un clásico
+                    de la fantasía estadounidense del siglo XX.
+                </p>
+
+                <p>Sus relatos suelen ser clasificados dentro de la fantasía heroica o la espada y brujería. Desde su
+                    creación ha aparecido en libros, historietas, películas, programas de televisión, videojuegos o
+                    juegos de rol, así como también en otros medios.</p>
+
+                <p>Vivió en la ficticia <strong>Era Hiboria</strong>, una época fantástica comprendida entre los años
+                    del hundimiento de Atlantis —una isla que <span lang="en">Howard</span> ideó basándose en el mito de
+                    la Atlántida— y los de las migraciones de los arios. Conan es un cimmerio, del nombre de su tierra
+                    natal, <strong>Cimmeria</strong>; reino que es parte de este universo de ficción.</p>
+
+                <p>Es un bárbaro, pero no un salvaje: se da cuenta de los cambios que se producen en la civilización, y
+                    en muchas ocasiones considera que ésta es decadente y muy corrupta. Tiene su propio código moral, y
+                    la suficiente fuerza e inteligencia para burlar a la ley cuando lo necesita. La única diferencia
+                    entre él y el resto de los asesinos de su mundo es su particular sentido del honor.</p>
+
+                <p>A lo largo de los relatos de <span lang="en">Howard</span>, Conan viaja desde su tierra natal, por la
+                    mayor parte de su mundo, siendo, entre otras cosas, ladrón, asesino, mercenario, pirata, soldado,
+                    general y, finalmente, rey de Aquilonia, el más poderoso de los reinos occidentales.</p>
+            </div>
+
+        </section>
+
+        <section class="section">
+            <h2>Newsletter</h2>
+
+            <div class="newsletter">
+                <p>¿Querés acceder a la colección de cartas de Conan El Bárbaro?
+                </p>
+            </div>
+
+            <div class="contenedor-cartas">
+
+                <div class="carta">
+                    <img src="img/cartas/toth_amon_c.png" alt="Carta de Toth Amon">
+                    <h3>Toth-Amon</h3>
+                    <span>Hechicero</span>
+                    <div>
+                        <p>STR - <strong>3</strong></p>
+                        <p>AGI - <strong>5</strong></p>
+                        <p>VIT - <strong>6</strong></p>
+                        <p>INT - <strong>8</strong></p>
+                        <p>MAG - <strong>9</strong></p>
+                        <p>CHA - <strong>6</strong></p>
+                    </div>
+                </div>
+
+                <div class="carta">
+                    <img src="img/cartas/conan_c.png" alt="Carta de Conan">
+                    <h3>Conan</h3>
+                    <span>Guerrero</span>
+                    <div>
+                        <p>STR - <strong>9</strong></p>
+                        <p>AGI - <strong>7</strong></p>
+                        <p>VIT - <strong>8</strong></p>
+                        <p>INT - <strong>6</strong></p>
+                        <p>MAG - <strong>1</strong></p>
+                        <p>CHA - <strong>7</strong></p>
+                    </div>
+                </div>
+
+                <div class="carta">
+                    <img src="img/cartas/red_sonja_c.png" alt="Carta de Red Sonja">
+                    <h3>Red Sonja</h3>
+                    <span>Aventurera</span>
+                    <div>
+                        <p>STR - <strong>8</strong></p>
+                        <p>AGI - <strong>9</strong></p>
+                        <p>VIT - <strong>7</strong></p>
+                        <p>INT - <strong>5</strong></p>
+                        <p>MAG - <strong>5</strong></p>
+                        <p>CHA - <strong>4</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <p>Inscribite a nuestro newsletter completando el siguiente formulario.</p>
+            </div>
+
+            <form action="#" method="post">
+                <div class="formDatos">
+                    <div class="grid-item">
+                        <label for="nombre">Nombre</label>
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="apellido">Apellido</label>
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="email">Correo Electrónico</label>
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="nacimiento">Fecha de nacimiento</label>
+                    </div>
+
+                    <div class="grid-item">
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre" required>
+                    </div>
+                    <div class="grid-item">
+                        <input type="text" name="apellido" id="apellido" placeholder="Ingresá tu apellido" required>
+                    </div>
+                    <div class="grid-item">
+                        <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico"
+                            required>
+                    </div>
+                    <div class="grid-item">
+                        <input type="date" name="nacimiento" id="nacimiento" required>
+                    </div>
+                </div>
+
+                <div class="formText">
+                    <label for="conociConan">¿Cómo conociste al personaje de Conan?</label>
+                    <textarea name="conociConan" id="conociConan" placeholder="Contanos en 500 caracteres..."
+                        maxlength="500" required></textarea>
+                </div>
+
+                <div class="formMundo">
+                    <p>¿Cuál es tu región favorita del Mundo de Conan?</p>
+                    <div>
+                        <input type="radio" name="reinos" id="noroeste" value="noroeste" required>
+                        <label for="noroeste">El Noroeste</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="reinos" id="hiborios" value="hiborios" required>
+                        <label for="hiborios">Reinos Hiborios</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="reinos" id="shem" value="shem" required>
+                        <label for="shem">Shem y Estigia</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="reinos" id="negros" value="negros" required>
+                        <label for="negros">Reinos Negros</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="reinos" id="oriente" value="oriente" required>
+                        <label for="oriente">El Oriente</label>
+                    </div>
+                </div>
+
+                <div class="formAdaptacion">
+                    <label for="elegirAdaptacion">¿Cuál es tu adaptación favorita de Conan?</label>
+                    <select name="elegirAdaptacion" id="elegirAdaptacion" required>
+                        <option value="" selected disabled>Elegí tu opción favorita</option>
+                        <option value="relatos">Relatos</option>
+                        <option value="comics">Cómics</option>
+                        <option value="peliculas">Películas</option>
+                        <option value="series">Series</option>
+                        <optgroup label="Juegos">
+                            <option value="juegos_de_rol">Juegos de Rol</option>
+                            <option value="videojuegos">Videojuegos</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="formBoton">
+                    <input type="reset" value="Reestablecer">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <div class="borderFooter"></div>
+    <footer>
+        <img src="img/footer/martin.jpg" alt="Foto de autor">
+        <div class="footer">
+            <p>Nombre y apellido: <span>Martin Goldaracena Fros</span></p>
+            <p>Edad: <span>35 años</span></p>
+            <p>Correo: <span>martin.goldaracena@davinci.edu.ar</span></p>
+            <p>Redes: <a href="https://www.behance.net/martingoldara" target="_blank">Behance</a></p>
+        </div>
+
+        <div>
+            <p><span>Links utilizados:</span></p>
+            <ul>
+                <li><a href="https://www.lacasadeel.net/2022/12/origen-de-conan.html" target="_blank">El origen de
+                        Conan: Robert E. Howard, creador de mitos</a></li>
+                <li><a href="http://elcubildelciclope.blogspot.com/2011/11/conan-de-robert-howard.html"
+                        target="_blank">El Cubil del Cíclope.: Conan de Robert Howard</a></li>
+                <li><a href="https://conan.fandom.com/wiki/Conan" target="_blank">Conan Wiki | Fandom</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Conan_el_B%C3%A1rbaro" target="_blank">Conan el Bárbaro |
+                        Wikipedia</a></li>
+                <li><a href="https://www.alohacriticon.com/literatura/escritores/robert-e-howard/"
+                        target="_blank">Robert E. Howard: biografía y obra</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Kull_de_Atlantis" target="_blank">Kull de Atlantis |
+                        Wikipedia</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Red_Sonja" target="_blank">Red Sonja | Wikipedia</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
